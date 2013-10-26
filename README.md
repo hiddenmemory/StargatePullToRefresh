@@ -11,4 +11,14 @@ Some interesting tidbits:
 - Gate address is random upon creation of the gate layer
 - The inner items will correctly rotate and dial to the correct address symbol
 
+Partial
+=======
+
+![alt tag](https://raw.github.com/hiddenmemory/StargatePullToRefresh/master/Images/Gate-Partial.PNG)
+
+Complete
+========
+
+![alt tag](https://raw.github.com/hiddenmemory/StargatePullToRefresh/master/Images/Gate-Complete.PNG)
+
 Have fun

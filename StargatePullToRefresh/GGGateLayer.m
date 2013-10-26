@@ -22,8 +22,9 @@
 - (id)init {
     self = [super init];
     if( self ) {
+        srandom((unsigned int)time(NULL));
+
         self.gateAddressPoints = 32;
-        
         self.address = [NSMutableArray array];
         for( int i = 0; i < 10; i++ ) {
             int value = 0;

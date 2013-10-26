@@ -10,4 +10,5 @@
 
 @interface GGTableViewController : UITableViewController
 
+- (void)refresh;
 @end

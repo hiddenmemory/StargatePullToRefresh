@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A416F7FD3474C6D2BADE4B3 /* GGGateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A416268F309C31CBE0391A7 /* GGGateView.m */; };
 		83FD887E181C5E1D009F1CFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83FD887D181C5E1D009F1CFA /* Foundation.framework */; };
 		83FD8880181C5E1D009F1CFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83FD887F181C5E1D009F1CFA /* CoreGraphics.framework */; };
 		83FD8882181C5E1D009F1CFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83FD8881181C5E1D009F1CFA /* UIKit.framework */; };
@@ -14,13 +15,14 @@
 		83FD888A181C5E1D009F1CFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FD8889181C5E1D009F1CFA /* main.m */; };
 		83FD888E181C5E1D009F1CFA /* GGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FD888D181C5E1D009F1CFA /* GGAppDelegate.m */; };
 		83FD8891181C5E1D009F1CFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83FD888F181C5E1D009F1CFA /* Main.storyboard */; };
-		83FD8894181C5E1D009F1CFA /* GGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FD8893181C5E1D009F1CFA /* GGViewController.m */; };
+		83FD8894181C5E1D009F1CFA /* GGTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FD8893181C5E1D009F1CFA /* GGTableViewController.m */; };
 		83FD8896181C5E1D009F1CFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83FD8895181C5E1D009F1CFA /* Images.xcassets */; };
 		83FD889D181C5E1D009F1CFA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83FD889C181C5E1D009F1CFA /* XCTest.framework */; };
 		83FD889E181C5E1D009F1CFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83FD887D181C5E1D009F1CFA /* Foundation.framework */; };
 		83FD889F181C5E1D009F1CFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83FD8881181C5E1D009F1CFA /* UIKit.framework */; };
 		83FD88A7181C5E1D009F1CFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83FD88A5181C5E1D009F1CFA /* InfoPlist.strings */; };
 		83FD88A9181C5E1D009F1CFA /* StargatePullToRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FD88A8181C5E1D009F1CFA /* StargatePullToRefreshTests.m */; };
+		83FD88B4181C5E37009F1CFA /* GGGateLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FD88B3181C5E37009F1CFA /* GGGateLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A416268F309C31CBE0391A7 /* GGGateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGGateView.m; sourceTree = "<group>"; };
+		5A416BB203CB1D3FD55FF1E8 /* GGGateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGGateView.h; sourceTree = "<group>"; };
 		83FD887A181C5E1D009F1CFA /* StargatePullToRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StargatePullToRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83FD887D181C5E1D009F1CFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		83FD887F181C5E1D009F1CFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +49,16 @@
 		83FD888C181C5E1D009F1CFA /* GGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGAppDelegate.h; sourceTree = "<group>"; };
 		83FD888D181C5E1D009F1CFA /* GGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGAppDelegate.m; sourceTree = "<group>"; };
 		83FD8890181C5E1D009F1CFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		83FD8892181C5E1D009F1CFA /* GGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGViewController.h; sourceTree = "<group>"; };
-		83FD8893181C5E1D009F1CFA /* GGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGViewController.m; sourceTree = "<group>"; };
+		83FD8892181C5E1D009F1CFA /* GGTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGTableViewController.h; sourceTree = "<group>"; };
+		83FD8893181C5E1D009F1CFA /* GGTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGTableViewController.m; sourceTree = "<group>"; };
 		83FD8895181C5E1D009F1CFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		83FD889B181C5E1D009F1CFA /* StargatePullToRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StargatePullToRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83FD889C181C5E1D009F1CFA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		83FD88A4181C5E1D009F1CFA /* StargatePullToRefreshTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StargatePullToRefreshTests-Info.plist"; sourceTree = "<group>"; };
 		83FD88A6181C5E1D009F1CFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83FD88A8181C5E1D009F1CFA /* StargatePullToRefreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StargatePullToRefreshTests.m; sourceTree = "<group>"; };
+		83FD88B2181C5E37009F1CFA /* GGGateLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGGateLayer.h; sourceTree = "<group>"; };
+		83FD88B3181C5E37009F1CFA /* GGGateLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGGateLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +121,14 @@
 				83FD888C181C5E1D009F1CFA /* GGAppDelegate.h */,
 				83FD888D181C5E1D009F1CFA /* GGAppDelegate.m */,
 				83FD888F181C5E1D009F1CFA /* Main.storyboard */,
-				83FD8892181C5E1D009F1CFA /* GGViewController.h */,
-				83FD8893181C5E1D009F1CFA /* GGViewController.m */,
+				83FD8892181C5E1D009F1CFA /* GGTableViewController.h */,
+				83FD8893181C5E1D009F1CFA /* GGTableViewController.m */,
 				83FD8895181C5E1D009F1CFA /* Images.xcassets */,
 				83FD8884181C5E1D009F1CFA /* Supporting Files */,
+				83FD88B2181C5E37009F1CFA /* GGGateLayer.h */,
+				83FD88B3181C5E37009F1CFA /* GGGateLayer.m */,
+				5A416268F309C31CBE0391A7 /* GGGateView.m */,
+				5A416BB203CB1D3FD55FF1E8 /* GGGateView.h */,
 			);
 			path = StargatePullToRefresh;
 			sourceTree = "<group>";
@@ -201,7 +211,7 @@
 				ORGANIZATIONNAME = "hiddenMemory Limited";
 				TargetAttributes = {
 					83FD889A181C5E1D009F1CFA = {
-						TestTargetID = 83FD8879181C5E1D009F1CFA;
+						TestTargetID = 83FD8879181C5E1D009F1CFA /* StargatePullToRefresh */;
 					};
 				};
 			};
@@ -251,8 +261,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				83FD888E181C5E1D009F1CFA /* GGAppDelegate.m in Sources */,
-				83FD8894181C5E1D009F1CFA /* GGViewController.m in Sources */,
+				83FD8894181C5E1D009F1CFA /* GGTableViewController.m in Sources */,
 				83FD888A181C5E1D009F1CFA /* main.m in Sources */,
+				83FD88B4181C5E37009F1CFA /* GGGateLayer.m in Sources */,
+				5A416F7FD3474C6D2BADE4B3 /* GGGateView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  GGViewController.h
+//  GGTableViewController.h
 //  StargatePullToRefresh
 //
 //  Created by Chris Ross on 26/10/2013.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GGViewController : UIViewController
+@interface GGTableViewController : UITableViewController
 
 @end

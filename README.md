@@ -11,6 +11,10 @@ Some interesting tidbits:
 - Gate address is random upon creation of the gate layer
 - The inner items will correctly rotate and dial to the correct address symbol
 
+Full Pull
+=======
+![Animated Example](Images/Gate-Animated.gif?raw=true)
+
 Partial
 =======
 
